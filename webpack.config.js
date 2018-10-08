@@ -30,7 +30,7 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          name: './static/media/[name].[hash:8].[ext]',
+          name: 'static/media/[name].[hash:8].[ext]',
           // outputPath: './images/',
         },
       },
@@ -38,7 +38,7 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         loader: 'file-loader',
         options: {
-          name: './static/media/[name].[hash:8].[ext]',
+          name: 'static/media/[name].[hash:8].[ext]',
           // outputPath: './fonts/',
         },
       },
@@ -49,7 +49,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/awesome-react-airbnb-skeleton/',
+    publicPath: '/awesome-react-airbnb-skeleton/dist',
     filename: 'bundle.js',
   },
   devServer: {
