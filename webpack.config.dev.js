@@ -21,14 +21,14 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          name: 'static/media/images/[name].[hash:8].[ext]',
+          name: './static/media/images/[name].[hash:8].[ext]',
         },
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         loader: 'file-loader',
         options: {
-          name: 'static/media/fonts/[name].[hash:8].[ext]',
+          name: './static/media/fonts/[name].[hash:8].[ext]',
         },
       },
     ],
