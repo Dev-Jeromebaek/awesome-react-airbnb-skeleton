@@ -49,8 +49,8 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/awesome-react-airbnb-skeleton/dist',
-    filename: 'bundle.js',
+    publicPath: '/awesome-react-airbnb-skeleton/',
+    filename: 'static/js/bundle.js',
   },
   devServer: {
     host: '0.0.0.0',
