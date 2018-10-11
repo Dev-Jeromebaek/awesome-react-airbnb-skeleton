@@ -6,6 +6,45 @@
 
 > https://Dev-JeromeBaek.github.io/awesome-react-airbnb-skeleton/
 
+## Folder Structure
+
+After creation, your project should look like this:
+
+```
+awesome-react-redux-skeleton/
+  README.md
+  .eslintrc
+  .prettierrc
+  package.json
+  webpack.config.dev.js
+  webpack.config.js
+  static/
+    js/
+      bundle.js
+    media/
+      image.d1184ef9.jpg
+  public/
+    index.html
+    favicon.ico
+  src/
+    assets/
+      css/
+        style.css
+      images/
+        image.png
+    components/
+      App.js
+      Test.jsx
+    index.js
+  index.html
+  favicon.ico
+```
+
+For the project to build, **these files must exist with exact filenames**:
+
+-   `public/index.html` is the page template;
+-   `src/index.js` is the JavaScript entry point.
+
 ## Build Setup
 
 npm
@@ -84,6 +123,33 @@ yarn clean
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
 }
+```
+
+> babel set
+
+```bash
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-syntax-import-meta",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-json-strings",
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "legacy": true
+            }
+        ],
+        "@babel/plugin-proposal-function-sent",
+        "@babel/plugin-proposal-export-namespace-from",
+        "@babel/plugin-proposal-numeric-separator",
+        "@babel/plugin-proposal-throw-expressions"
+    ]
+},
 ```
 
 ## How to make your react project
