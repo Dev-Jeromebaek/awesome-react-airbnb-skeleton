@@ -6,5 +6,6 @@
     "tabWidth": 4,
     "rules": {
         "sort-imports": 2
-    }
+    },
+    "proseWrap": ""
 }
