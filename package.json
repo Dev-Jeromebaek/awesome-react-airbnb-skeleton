@@ -74,7 +74,7 @@
     },
     "dependencies": {
         "react": "^16.7.0",
-        "react-dom": "^16.7.0"
+        "react-dom": "^16.10.2"
     },
     "browserslist": [
         ">0.2%",
