@@ -41,7 +41,7 @@
     },
     "homepage": "https://github.com/Dev-JeromeBaek/awesome-react-airbnb-skeleton#readme",
     "devDependencies": {
-        "@babel/core": "^7.2.2",
+        "@babel/core": "^7.6.3",
         "@babel/plugin-proposal-class-properties": "^7.2.3",
         "@babel/plugin-proposal-decorators": "^7.2.3",
         "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
